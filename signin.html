@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration</title>
+  <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+  <div class="registration-form">
+    <h2>Registration</h2>
+    <form>
+      <label>Full Name</label>
+      <input type="text" placeholder="Enter your full name" required>
+
+      <label>Email-ID</label>
+      <input type="email" placeholder="Enter your email" required>
+
+      <label>Mobile Number</label>
+      <input type="tel" placeholder="Enter mobile number" required>
+
+      <label>Address</label>
+      <textarea placeholder="Enter address" rows="3" required></textarea>
+
+      <label>Gender</label>
+      <select required>
+        <option value="">Select Gender</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+      </select>
+
+      <label>Username</label>
+      <input type="text" placeholder="Enter username" required>
+
+      <label>Password</label>
+      <input type="password" placeholder="Enter password" required>
+
+      <label>Confirm Password</label>
+      <input type="password" placeholder="Re-enter password" required>
+
+      <!-- OTP input (6 boxes) -->
+        <label>Enter OTP</label>
+        <div class="otp-block">
+          <input type="text" maxlength="1" />
+          <input type="text" maxlength="1" />
+          <input type="text" maxlength="1" />
+          <input type="text" maxlength="1" />
+          <input type="text" maxlength="1" />
+          <input type="text" maxlength="1" />
+        </div>
+        
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>

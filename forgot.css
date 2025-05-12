@@ -1,0 +1,95 @@
+/* Body Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #ae91db, #ab9c9c);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  margin: 0;
+  padding: 40px 20px;
+  overflow-y: auto;
+}
+
+/* Container for the form */
+.form-container {
+  background-color: #e8e0e0;
+  padding: 40px 30px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Heading */
+.form-container h2 {
+  font-size: 24px;
+  color: #34568B;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+/* Labels */
+form label {
+  display: block;
+  text-align: left;
+  margin-top: 12px;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Inputs */
+form input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #aaa;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 12px;
+  background-color: plum;
+  border: none;
+  color: black;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #66bb6a;
+  color: #000;
+}
+
+/* OTP Block Styling */
+.otp-inputs {
+ display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+.otp-box {
+  width: 40px;
+  height: 50px;
+  text-align: center;
+  font-size: 24px;
+  /* border: 2px solid #8d61d4; */
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.otp-box:focus {
+  border-color: #6b47b6;
+  box-shadow: 0 0 5px rgba(141, 97, 212, 0.5);
+}

@@ -1,0 +1,111 @@
+/* Global Styling */
+body {
+  background: linear-gradient(135deg, #ae91db, #ab9c9c);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Feedback Card Styling */
+.feedback-form {
+  background-color: #fdfdfd;
+  padding: 40px 30px;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 480px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading */
+.feedback-form h2 {
+  font-size: 26px;
+  color: #4b0082;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Label */
+.feedback-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Inputs and Textarea */
+.feedback-form input[type="text"],
+.feedback-form input[type="email"],
+.feedback-form textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  transition: 0.3s ease;
+}
+
+.feedback-form input:focus,
+.feedback-form textarea:focus {
+  border-color: #7b2ff7;
+  outline: none;
+  box-shadow: 0 0 4px rgba(123, 47, 247, 0.5);
+}
+
+/* Radio Group */
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.radio-group input[type="radio"] {
+  margin-right: 10px;
+  transform: scale(1.2);
+}
+
+/* Submit Button */
+.feedback-form button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 12px;
+  background-color: #da70d6;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.feedback-form button:hover {
+  background-color: #8e44ad;
+}
+
+.back-button {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #4b47c3;
+  text-decoration: none;
+  background: none;
+  border: none;
+  box-shadow: none;
+  /* z-index: 1000; */
+  cursor: pointer;
+}

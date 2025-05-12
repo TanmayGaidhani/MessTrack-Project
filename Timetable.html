@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mess Time-Table</title>
+  <link rel="stylesheet" href="Timetable.css" />
+  <!-- FOR DOWNLOAD PURPOSE ADD THIS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <nav style=" width: 100%; margin-left: 1000px;">
+        <button id="back-button" onclick="window.location.href='main.html'" style="margin-left: 95%; font-weight: 600;">&#10005;</button> <!-- Cross sign button -->
+    </nav>
+
+    <div class="container">
+        <h1>Weekly Mess Time-Table</h1>
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Breakfast (8-9 AM)</th>
+                <th>Lunch (12 PM)</th>
+                <th>Dinner (8 PM)</th>
+            </tr>
+            <tr>
+                <td class="day">Monday</td>
+                <td>NULL</td>
+                <td>NULL</td>
+                <td>NULL</td>
+            </tr>
+            <tr>
+                <td class="day">Tuesday</td><td>NULL</td><td>NULL</td><td>NULL</td></tr>
+            <tr>
+                <td class="day">Wednesday</td>
+                <td>NULL</td>
+                <td>NULL</td>
+                <td>NULL</td>
+            </tr>
+            <tr>
+                <td class="day">Thursday</td>
+                <td>NULL</td>
+                <td>NULL</td>
+                <td>NULL</td>
+            </tr>
+            <tr>
+                <td class="day">Friday</td>
+                <td>NULL</td>
+                <td>NULL</td>
+                <td>NULL</td>
+            </tr>
+            <tr>
+                <td class="day">Saturday</td>
+                <td>NULL</td>
+                <td>NULL</td>
+                <td>NULL</td>
+            </tr>
+            <tr>
+                <td class="day">Sunday</td>
+                <td>NULL</td>
+                <td>NULL</td>
+                <td>NULL</td>
+            </tr>
+        </table>
+        <div class="button-group">
+            <button id="submit">Submit</button>
+            <button id="download">Download</button>
+        </div>
+    </div>
+
+  <script src="Timetable.js"></script>
+</body>
+</html>

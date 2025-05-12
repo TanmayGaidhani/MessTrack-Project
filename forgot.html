@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Forgot Password</title>
+  <link rel="stylesheet" href="forgot.css">
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>Forgot Password</h2>
+    <form>
+      <label for="email">Email Address</label>
+      <input type="email" id="email" required placeholder="Enter your email">
+
+      <label for="new-password">New Password</label>
+      <input type="password" id="new-password" required placeholder="New password">
+
+      <label for="confirm-password">Confirm Password</label>
+      <input type="password" id="confirm-password" required placeholder="Confirm password">
+      
+      <label for="otp">OTP</label>
+      <div class="otp-inputs">
+          <input type="text" maxlength="1" class="otp-box" />
+          <input type="text" maxlength="1" class="otp-box" />
+          <input type="text" maxlength="1" class="otp-box" />
+          <input type="text" maxlength="1" class="otp-box" />
+          <input type="text" maxlength="1" class="otp-box" />
+          <input type="text" maxlength="1" class="otp-box" />
+      </div>
+
+      <button type="submit">Reset Password</button>
+    </form>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Feedback - MessTrack</title>
+  <link rel="stylesheet" href="feedback.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body>
+    <a href="main.html" class="back-button" title="Go back">×</a>
+    <form class="feedback-form">
+    <h2 class="text-center mb-4">Mess Feedback Form</h2>
+
+    <div class="mb-3">
+      <label for="name" class="form-label">Name:</label>
+      <input type="text" class="form-control" id="name" placeholder="Enter your name" required />
+    </div>
+
+    <div class="mb-3">
+      <label for="email" class="form-label">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter your email" required />
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Food Quality:</label><br />
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="quality" id="excellent" value="Excellent" required />
+        <label class="form-check-label" for="excellent">Excellent</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="quality" id="good" value="Good" />
+        <label class="form-check-label" for="good">Good</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="quality" id="average" value="Average" />
+        <label class="form-check-label" for="average">Average</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="quality" id="poor" value="Poor" />
+        <label class="form-check-label" for="poor">Poor</label>
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <label for="comments" class="form-label">Additional Comments:</label>
+      <textarea class="form-control" id="comments" rows="4" placeholder="Write your feedback..."></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary w-100">Submit Feedback</button>
+  </form>
+</body>
+
+</html>

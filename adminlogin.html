@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login Page</title>
+  <link rel="stylesheet" href="userloginpage.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <div class="brand">
+        <span class="logo"></span>
+        <h3>WELCOME TO MESSTRACK</h3>
+      </div>
+      <p>Hey, welcome back to your special place</p>
+      <form>
+        <input type="email" placeholder="Email" required />
+        <input type="password" placeholder="••••••••••••••••" required />
+        
+        <!-- Captcha block -->
+        <div class="captcha-block">
+          <span class="captcha-text">7G5K3</span>
+          <button class="refresh-captcha" type="button">&#x21bb;</button>
+        </div>
+        <input type="text" placeholder="Enter Captcha" required />
+
+        <div class="options">
+          <label><input type="checkbox" checked> Remember me</label>
+          <a href="forgot.html">Forgot Password?</a>
+        </div>
+        <button type="submit">Login</button>
+      </form>
+    </div>
+
+    <div class="right">
+      <img src="loginimage.webp" alt="login"/>
+    </div>
+  </div>
+  <script src="loginpage.js"></script>
+</body>
+</html>
